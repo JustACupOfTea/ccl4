@@ -20,7 +20,7 @@ public class CharacterMovementHelp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     UpdateCharacterController();  
+        UpdateCharacterController();  
     }
     
     protected virtual void UpdateCharacterController()
