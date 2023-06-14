@@ -27,8 +27,9 @@ public class EnemySpawn : MonoBehaviour
             timePassedSinceLastSpawnTry = 0;
             int randomNumber1 = Random.Range(0, Mathf.RoundToInt(100/spawnChance));
             int randomNumber2 = Random.Range(0, 100/spawnChance); ;
-            if(randomNumber1==randomNumber2)
-                SpawnEnemy(transform.position);
+            if (randomNumber1 == randomNumber2)
+            SpawnEnemy(transform.position);
+
         }
         timePassedSinceLastSpawnTry += Time.deltaTime;
     }
